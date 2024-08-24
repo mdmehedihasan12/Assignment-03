@@ -15,7 +15,7 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                SbgFirst: 'hsva(0,0%,101%,1)',
               }             
             }
           }
@@ -30,15 +30,15 @@
 </head>
 <body class="manrope-font">
     <!-- Header section start -->
-    <header class=" bg-gradient-to-bl from-stone-200 to-stone-100">
+    <header class=" bg-gradient-to-b from-[hsla(0,0%,101%,1)] to-[hsla(0,0%,101%,0)]">
 
       <!-- Navbar section -->
-        <section class="m-2" >
+        <section class="p-2" >
           
         <nav class="container mx-auto flex justify-between items-center pt-12">
           <div class="flex items-center gap-1">
                <button class=" bg-[#ABEF5F] rounded-full"><i class="-rotate-45  text-xl md:text-2xl rounded-full  px-3 py-2 md:px-4 md:py-2.5 fa-solid fa-arrow-right"></i></button>
-               <div><h1 class="text-3xl font-bold ">Rinterio</h1></div>
+               <div><h1 class="text-3xl font-[800] ">Rinterio</h1></div>
           </div>
           <div class="lg:flex list-none gap-6 justify-center items-center md:hidden hidden text-[#737373] font-semibold ">
            <li><a class="text-black" href="">Home</a></li>
@@ -50,7 +50,7 @@
           <div class="flex gap-4 items-center">
              <div class="bg-white border px-3.5 py-2.5 rounded-full cursor-pointer hidden md:block"> <i class="fa-solid fa-magnifying-glass"></i></div>
              <div class="bg-white border px-3.5 py-2.5 rounded-full cursor-pointer hidden md:block"><i class="fa-solid fa-cart-shopping"></i></div>
-             <div class="bg-[#ABEF5F] md:flex hidden gap-1 py-2 px-5 items-center rounded-full ">
+             <div class="bg-[#ABEF5F] md:flex hidden gap-1 py-2 px-5  items-center rounded-full ">
                <div class=" text-xl font-semibold">Book Consult </div>
                <div><i class="-rotate-45 bg-[#1C1C1C] rounded-full px-2.5 py-2.5 fa-solid text-white fa-arrow-right"></i></div>
              </div>
@@ -59,14 +59,14 @@
        </nav>
         </section>
         <!-- banner section start -->
-        <section  class="container mx-auto flex flex-col justify-center items-center">
+        <section  class="container mx-auto flex flex-col justify-center items-center p-2">
           <div>
             <img src="image/banner.png" alt="">
           </div>
           <div class="text-center">
             <h2 class="lg:text-6xl md:text-4xl pb-5 text-2xl font-extrabold text-[0.5px	Outside
             hsla(0,0%,13%,1)]">A barn house of this design has a <br> striking appearance</h2>
-            <p class="md:text-[16px] p-4 text-[14px] text-[hsla(0,0%,29%,1)]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+            <p class="md:text-[16px] p-4 text-[14px] text-[hsla(0,0%,29%,1)] font-[500]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
               <br> accents, and large windows that flood the space with natural light.</p>
           </div>
           <div class="md:pb-32 pb-12">
@@ -80,6 +80,45 @@
     </header>
 
     <!-- header section end -->
+     <!-- main section start -->
+     <main class="bg-[#F4F4F4]">
+       <!-- About section start -->
+        <section class=" container mx-auto flex flex-col   p-2">
+          <div><img class="-rotate-12" src="image/Vector.png" alt=""></div>
+           <div class="flex items-center justify-center gap-12 border">
+              <div>
+                <div class="flex flex-col lg:gap-2 xl:gap-8">
+                 <div><button  class="border bg-white font-[700] text-[16px] py-1 px-3 rounded-full  "><i class="fa-solid fa-arrow-right mr-1"></i>About Us</button></div>
+                  <div><h1 class="text-[40px] font-[700] text-[#212121] leading-10  ">We design thoughtful, <br> liveable spaces</h1></div>
+                 <div><p class="font-[500] text-[16px]">The barn house captivates with its blend of rustic charm and <br>  modern sophistication, featuring weathered wood, sleek metal accents.</p></div>
+                 <div class="flex shadow-md gap-4 lg:p-4 xl:p-7 bg-white rounded-2xl items-center mb-6 lg:mb-2">
+                   <div>
+                    <img src="image/commercial.png" alt="">
+                   </div>
+                   <div>
+                     <h2 class="text-[20px] font-[800] mb-1">Commercial</h2>
+                     <p class="text-[16px] font-[500] text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                 </div>
+                 <div class="flex shadow-md lg:p-4 xl:p-7 gap-4 items-center bg-white rounded-2xl">
+                   <div>
+                    <img src="image/residential.png" alt="">
+                   </div>
+                   <div>
+                     <h2 class="text-[20px] font-[800] mb-1">Residential</h2>
+                     <p class="text-[16px] font-[500] text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                   </div>
+                 </div>
+                </div>
+              </div>
+              <div class=" flex items-center justify-center">
+                <img class="" src="image/Rectangle.png" alt="">
+              </div>
+           </div>
+
+        </section>
+     </main>
+     <!-- main section end -->
 
 </body>
 </html>
